@@ -6,6 +6,9 @@
 #videos {
     font-family: 'Crete Round', serif;
     font-size: 3rem;
+}
+
+#click-instruction {
     animation: fadeinout 3s ease-in-out infinite alternate;
 }
 
@@ -15,6 +18,6 @@ body {
 }
 
 @keyframes fadeinout {
-    from {color: rgba(255,255,255,1);}
-    to {color: rgba(255,255,255,.2);}
+    from {color: rgba(255,255,255, 1);}
+    to {color: rgba(255,255,255, 0.2);}
 }
